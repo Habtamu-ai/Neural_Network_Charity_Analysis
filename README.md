@@ -1,3 +1,4 @@
+
 # Neural_Network_Charity_Analysis
 # Overview
 The purpose of this project is to create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup. The project uses a data set that contains 34 000 organizations that have received funding from Alphabet Soup over the years to analyze the successful organizations. This analysis uses python's TensorFlow library to create, train, and evaluate the data.
@@ -15,12 +16,14 @@ The output layer is made of a unique neuron as it is a binary classification. To
 
  - Second, to optimize our accuracy rate we remove the noisy and noncatagorical columns that do not give us relevant information. And we also made adjustments in the neurons of the layers. The image below shows 73% which is an improvement from the previous attempt but still lower than the target level of 75%. 
 
-![Attempt2](https://user-images.githubusercontent.com/78656720/124116496-fe0ba100-da3c-11eb-814f-d0f7b4cb0177.PNG)
+![Attempt_1](https://user-images.githubusercontent.com/78656720/124124262-3a8fca80-da46-11eb-8b70-2024bf82051f.PNG)
+
+
 
 
 We made further attempt by adding the hidden layers and changing activation code. Our final attempt shows a little reduction from the previous accuracy rate but still 73%.
 
-![Attempt3](https://user-images.githubusercontent.com/78656720/124116508-01069180-da3d-11eb-833a-70f3f11be238.PNG)
+![Attempt_3](https://user-images.githubusercontent.com/78656720/124124389-5c894d00-da46-11eb-9f08-54ce04eaccdf.PNG)
 
 
 # Summary
