@@ -5,6 +5,7 @@ The purpose of this project is to create a binary classifier that is capable of 
 After carfully observing the data the project established that the target variable is the "IS_SUCCESSFUL" column."EIN" and "NAME" are columns that do not offer any relevant information that could help the model perform better.The project usses the remaining columns as the features for the model.
  
  ## Compiling, Training, and Evaluating the Model
-  - First Attempt
-For my first attempt at compiling a neuron network consisted of 8 neurons in the first layer and 6 in the second. Both layers had relu activation functions and the output layer had a sigmoid activation function. I started with these parameters as relu does better with nonlinear data, and two layers allows for a second layer to reweight the inputs from the first layer. Here are the preformance metrics of this model.
+  - First Attempt, 
+For the first attempt at compiling a neuron network consisted of 8 neurons in the first layer and 6 in the second. Both layers had relu activation functions and the output layer had a sigmoid activation function.These parameters as relu does better with nonlinear data, and two layers allows for a second layer to reweight the inputs from the first layer. Here are the preformance metrics of this model.
+
 # Summary
